@@ -1,0 +1,7 @@
+- reply_type: text
+  text: Who is your favorite author?
+  suggestions:
+    - text: Kafka
+    - text: Hemingway
+    - text: Dostoevsky
+    - text: Thoreau

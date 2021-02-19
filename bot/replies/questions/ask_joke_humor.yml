@@ -1,0 +1,5 @@
+- reply_type: text
+  text: Did you think my joke was funny?
+  suggestions:
+    - text: "Yes"
+    - text: "No"

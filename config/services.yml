@@ -1,0 +1,22 @@
+default: &default
+  transcript_logging: true
+  lock_autorelease: 30
+  nlp_integration: luis
+  log_all_nlp_results: true
+  twilio:
+    account_sid: <add account sid>
+    auth_token: <add auth token>
+    from_phone: +15553331212
+  luis:
+    endpoint: <add endpoint here>
+    app_id: <add app_id here>
+    subscription_key: <add subscription key here>
+    datetime_reference: <%= Time.now.in_time_zone('Pacific Time (US & Canada)').iso8601 %>
+    intent_threshold: 0.26
+
+production:
+  <<: *default
+development:
+  <<: *default
+test:
+  <<: *default

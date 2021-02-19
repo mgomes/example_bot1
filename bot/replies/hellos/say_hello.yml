@@ -1,0 +1,7 @@
+- reply_type: text
+  text: Hello World! Welcome to Xip Kit. 👋
+- reply_type: text
+  text: Would you like to try this thing out?
+  suggestions:
+    - text: "Yes"
+    - text: "No"
